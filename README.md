@@ -10,7 +10,8 @@ A gatsby starter for search-engine friendly, multilanguage websites with i18next
 - [x] add post-css styling
 - [x] add lerna to manage both packages
 - [x] make lang attribute in html header change on lang switch
-- [ ] add schema for reach text content and rich text parsing rules in client folder
+- [ ] add schema for rich text content and rich text parsing rules in client folder
+- [ ] add schema for image loading via CMS
 
 ## Features
 
