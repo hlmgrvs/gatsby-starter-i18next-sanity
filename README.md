@@ -6,10 +6,10 @@ A gatsby starter for search-engine friendly, multilanguage websites with i18next
 
 ##to-do
 
-[] add product schema to sanity
-[] add post-css styles
-[] add lerna to manage both packages
-[] make lang attribute in html header dynamic
+- [ ] add product schema to sanity
+- [ ] add post-css styling
+- [ ] add lerna to manage both packages
+- [ ] make lang attribute in html header change on lang switch
 
 ## Features
 
