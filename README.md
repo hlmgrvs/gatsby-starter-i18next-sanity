@@ -28,20 +28,35 @@ A gatsby starter for search-engine friendly, multilanguage websites with i18next
 
 1.  **Install**
 
-NPM
+    Install dependencies
+    
     ```sh
     npm install
     ```
+2.  **Initiate Sanity and deploy Sanity graphql schema.**
 
-1.  **Start developing.**
-
-    Navigate into your project directory and start it up.
+    Navigate into your studio directory and initiate sanity project
 
     ```sh
     npm start
     ```
 
-1.  **Open the source code and start editing!**
+
+2.  **Start developing.**
+
+    Navigate into your project directory and start it up.
+
+    ```sh
+    sanity init
+    ```
+    After initiating:
+    
+    ```sh
+    sanity graphql deploy
+    ```
+    
+
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
     Sanity studio is now running at `http://localhost:3333`!
