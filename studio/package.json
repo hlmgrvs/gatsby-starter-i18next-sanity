@@ -1,0 +1,51 @@
+{
+  "name": "intl",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Vladislavs Holmogorovs <hlmgrvs@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "deploy": "npm run graphql-deploy && npm run sanity-deploy",
+    "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
+    "graphql-deploy": "sanity graphql deploy --playground",
+    "sanity-deploy": "sanity deploy",
+    "lint": "eslint .",
+    "start": "sanity start",
+    "build": "sanity build",
+    "now-build": "npm run build",
+    "workers-start": "npm run build && wrangler preview --watch",
+    "workers-deploy": "npm run build && wrangler publish",
+    "now-dev": "npm run build",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.1.2",
+    "@sanity/cli": "^2.1.0",
+    "@sanity/components": "^2.1.0",
+    "@sanity/core": "^2.1.2",
+    "@sanity/default-layout": "^2.1.2",
+    "@sanity/default-login": "^2.1.0",
+    "@sanity/desk-tool": "^2.1.2",
+    "@sanity/vision": "^2.1.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-icons": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier-eslint-cli": "^5.0.0"
+  }
+}

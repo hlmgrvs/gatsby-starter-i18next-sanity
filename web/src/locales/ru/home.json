@@ -1,0 +1,7 @@
+{
+  "hi": "Привет",
+  "homeTitle": "Главная",
+  "welcome": "Добро пожаловать",
+  "navigateTo": "перейти",
+  "productTitle": "Ворота: {{productName}}"
+}
