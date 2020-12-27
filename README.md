@@ -4,6 +4,13 @@
 
 A gatsby starter for search-engine friendly, multilanguage websites with i18next and sanity.io
 
+##to-do
+
+[] add product schema to sanity
+[] add post-css styles
+[] add lerna to manage both packages
+[] make lang attribute in html header dynamic
+
 ## Features
 
 - I18next for snippet translation
