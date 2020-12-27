@@ -55,6 +55,8 @@ A gatsby starter for search-engine friendly, multilanguage websites with i18next
     sanity graphql deploy
     ```
     
+    More on linking your Gatsby site to Sanity.io: https://www.gatsbyjs.com/plugins/gatsby-source-sanity/
+    
 
 3.  **Open the source code and start editing!**
 
